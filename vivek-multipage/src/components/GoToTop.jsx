@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { FaArrowUp } from "react-icons/fa";
+import { FaAngleDoubleUp } from "react-icons/fa";
 
 const GoToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,7 +30,7 @@ const GoToTop = () => {
     <Wrapper>
       {isVisible && (
         <div className="top-btn" onClick={goToBtn}>
-          <FaArrowUp className="top-btn--icon" />
+          <FaAngleDoubleUp className="top-btn--icon" />
         </div>
       )}
     </Wrapper>
